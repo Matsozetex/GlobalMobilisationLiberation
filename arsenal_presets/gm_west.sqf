@@ -229,18 +229,16 @@ GRLIB_arsenal_items = [
     "gm_feroz2x17_pzf44_2_blk",
     "gm_feroz2x17_pzf84_blk",
     "gm_c79a1_blk",
+    "muzzle_snds_b",
+    "muzzle_snds_m",
 
-    // Items
-    "gm_ge_army_burnBandage",
-    "gm_ge_army_conat2",
-    "gm_ge_army_gauzeBandage",
-    "gm_ge_army_gauzeCompress",
-    "gm_ge_army_medkit_80",
-    "gm_repairkit_01",
     // Binocular
     "gm_ferod16_oli", 
     "gm_df7x40_blk",
     "gm_watch_kosei_80",
+
+    //Vanilla Items
+    "ItemCompass",
     "ItemMap",
     "ItemWatch",
     "ItemRadio",
@@ -278,7 +276,11 @@ GRLIB_arsenal_items = [
     "ACE_SpareBarrel",
     "ACE_RangeCard",
     "ACE_Sandbag_empty",
-    "ACE_EntrenchingTool"
+    "ACE_EntrenchingTool",
+    "ace_splint",
+    "ACE_CableTie"
+
+
 
 ];
 
