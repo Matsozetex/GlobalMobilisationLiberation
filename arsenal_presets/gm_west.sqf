@@ -25,6 +25,7 @@ GRLIB_arsenal_weapons = [
     "gm_m16a1_blk",
     "gm_m16a2_blk",
     "gm_c7a1_oli",
+    "gm_c7a1_blk",
 
     //9x19
     "gm_mp5a2_blk",

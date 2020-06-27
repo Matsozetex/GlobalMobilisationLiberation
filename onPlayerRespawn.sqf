@@ -8,10 +8,10 @@ if (isNil "GRLIB_respawn_loadout") then {
     // removeBackpack player;
     // removeHeadgear player;
     // removeGoggles player;
-    player linkItem "ItemMap";
-    player linkItem "ItemCompass";
-    player linkItem "ItemWatch";
-    player linkItem "ItemRadio";
+    // player linkItem "ItemMap";
+    // player linkItem "ItemCompass";
+    // player linkItem "ItemWatch";
+    // player linkItem "ItemRadio";
 } else {
     sleep 4;
     [player, GRLIB_respawn_loadout] call KPLIB_fnc_setLoadout;
