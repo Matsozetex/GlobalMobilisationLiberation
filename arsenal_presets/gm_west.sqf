@@ -13,7 +13,13 @@
 GRLIB_arsenal_weapons = [
     // G3A3 + G3A4
     "gm_g3a3_oli",
+    "gm_g3a3_grn",
+    "gm_g3a3_blk",
+    "gm_g3a3_des",
     "gm_g3a4_oli",
+    "gm_g3a4_grn",
+    "gm_g3a4_blk",
+    "gm_g3a4_des",
 
     //556
     "gm_m16a1_blk",
@@ -233,6 +239,8 @@ GRLIB_arsenal_items = [
     "muzzle_snds_m",
 
     // Binocular
+    "gm_ferod16_des", 
+    "gm_ferod16_win", 
     "gm_ferod16_oli", 
     "gm_df7x40_blk",
     "gm_watch_kosei_80",
@@ -242,6 +250,8 @@ GRLIB_arsenal_items = [
     "ItemMap",
     "ItemWatch",
     "ItemRadio",
+    "gm_ge_army_conat2",
+    "gm_watch_kosei_80",
     
     //ACRE Radios
     "ACRE_SEM52SL",
@@ -279,9 +289,6 @@ GRLIB_arsenal_items = [
     "ACE_EntrenchingTool",
     "ace_splint",
     "ACE_CableTie"
-
-
-
 ];
 
 GRLIB_arsenal_backpacks = [
