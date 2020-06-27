@@ -69,7 +69,7 @@ class Params {
         title = $STR_PARAM_SQUAD_SIZE;
         values[] = {0, 1, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36};
         texts[] = {0, 1, 2, 4, 6, 8, 10, 12, 16, 20, 24, 30, 36};
-        default = 12;
+        default = 36;
     };
     class BluforDefenders {
         title = $STR_PARAM_BLUFOR_DEFENDERS;
@@ -147,7 +147,7 @@ class Params {
         title = $STR_A3_ReviveMode;
         values[] = {0, 1};
         texts[] = {$STR_A3_Disabled, $STR_A3_EnabledForAllPlayers};
-        default = 1;
+        default = 0;
     };
     class ReviveDuration {
         title = $STR_A3_ReviveDuration;
@@ -213,7 +213,7 @@ class Params {
         title = $STR_PARAM_WEAPSWAY;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-        default = 1;
+        default = 0;
     };
     class ArsenalUsePreset {
         title = $STR_PARAMS_ARSENALUSEPRESET;
@@ -249,7 +249,7 @@ class Params {
         title = $STR_PARAMS_AILOGISTICS;
         values[] = {0, 1};
         texts[] = {$STR_PARAMS_DISABLED, $STR_PARAMS_ENABLED};
-        default = 1;
+        default = 0;
     };
     class CR_Building {
         title = $STR_PARAM_CR_BUILDING;
@@ -267,7 +267,7 @@ class Params {
         title = $STR_PARAM_CLEAR_CARGO;
         values[] = {1, 0};
         texts[] = {$STR_PARAMS_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class AllowEnemiesInImmobile {
         title = $STR_PARAM_ALLOW_ENEMIES_IN_IMMOBILE;
