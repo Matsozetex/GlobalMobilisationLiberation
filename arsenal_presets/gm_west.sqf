@@ -60,90 +60,92 @@ GRLIB_arsenal_weapons = [
 ];
 
 GRLIB_arsenal_magazines = [
-    // G3A3 + G3A4
-    "gm_20rnd_762x51mm_b_t_dm21_g3_blk",
-    "gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
-    "gm_20rnd_762x51mm_b_t_dm21a2_g3_blk",
-    "gm_20rnd_762x51mm_b_dm111_g3_blk",
-    "gm_20rnd_762x51mm_b_dm41_g3_blk",
-    "gm_20rnd_762x51mm_ap_dm151_g3_blk",
-    "gm_20rnd_762x51mm_b_t_dm21_g3_des",
-    "gm_20rnd_762x51mm_b_t_dm21a1_g3_des",
-    "gm_20rnd_762x51mm_b_t_dm21a2_g3_des",
-    "gm_20rnd_762x51mm_b_dm111_g3_des",
-    "gm_20rnd_762x51mm_b_dm41_g3_des",
-    "gm_20rnd_762x51mm_ap_dm151_g3_des",
-    "gm_1rnd_67mm_heat_dm22a1_g3",
+    //Commenting out removes whitelist, fixes issues with arsenal loadouts not saving magazines
 
-    // MG3 7.62x51 mm
-    "gm_120rnd_762x51mm_b_t_dm21_mg3_grn",
-    "gm_120rnd_762x51mm_b_t_dm21a1_mg3_grn",
-    "gm_120rnd_762x51mm_b_t_dm21a2_mg3_grn",
+    // // G3A3 + G3A4
+    // "gm_20rnd_762x51mm_b_t_dm21_g3_blk",
+    // "gm_20rnd_762x51mm_b_t_dm21a1_g3_blk",
+    // "gm_20rnd_762x51mm_b_t_dm21a2_g3_blk",
+    // "gm_20rnd_762x51mm_b_dm111_g3_blk",
+    // "gm_20rnd_762x51mm_b_dm41_g3_blk",
+    // "gm_20rnd_762x51mm_ap_dm151_g3_blk",
+    // "gm_20rnd_762x51mm_b_t_dm21_g3_des",
+    // "gm_20rnd_762x51mm_b_t_dm21a1_g3_des",
+    // "gm_20rnd_762x51mm_b_t_dm21a2_g3_des",
+    // "gm_20rnd_762x51mm_b_dm111_g3_des",
+    // "gm_20rnd_762x51mm_b_dm41_g3_des",
+    // "gm_20rnd_762x51mm_ap_dm151_g3_des",
+    // "gm_1rnd_67mm_heat_dm22a1_g3",
 
-    // MP2A1 9x19 mm
-    "gm_32rnd_9x19mm_b_dm51_mp2_blk",
+    // // MG3 7.62x51 mm
+    // "gm_120rnd_762x51mm_b_t_dm21_mg3_grn",
+    // "gm_120rnd_762x51mm_b_t_dm21a1_mg3_grn",
+    // "gm_120rnd_762x51mm_b_t_dm21a2_mg3_grn",
 
-    // P1 9x19 mm
-    "gm_8rnd_9x19mm_b_dm11_p1_blk",
+    // // MP2A1 9x19 mm
+    // "gm_32rnd_9x19mm_b_dm51_mp2_blk",
 
-    // P2A1 26.5 mm
-    "gm_1Rnd_265mm_flare_single_wht_gc",
-    "gm_1Rnd_265mm_flare_single_grn_gc",
-    "gm_1Rnd_265mm_flare_single_red_gc",
-    "gm_1Rnd_265mm_flare_multi_red_gc",
-    "gm_1Rnd_265mm_smoke_single_yel_gc",
-    "gm_1Rnd_265mm_smoke_single_blu_gc",
-    "gm_1Rnd_265mm_smoke_single_blk_gc",
-    "gm_1Rnd_265mm_flare_para_yel_DM16",
-    "gm_1Rnd_265mm_flare_single_wht_DM15",
-    "gm_1Rnd_265mm_flare_single_red_DM13",
-    "gm_1Rnd_265mm_flare_single_grn_DM11",
-    "gm_1Rnd_265mm_flare_single_yel_DM10",
-    "gm_1Rnd_265mm_flare_multi_wht_DM25",
-    "gm_1Rnd_265mm_flare_multi_red_DM23",
-    "gm_1Rnd_265mm_flare_multi_grn_DM21",
-    "gm_1Rnd_265mm_flare_multi_yel_DM20",
-    "gm_1Rnd_265mm_smoke_single_yel_DM19",
-    "gm_1Rnd_265mm_smoke_single_org_DM22",
-    "gm_1Rnd_265mm_smoke_single_vlt_DM24",
-    "gm_1Rnd_265mm_flare_multi_nbc_DM47",
+    // // P1 9x19 mm
+    // "gm_8rnd_9x19mm_b_dm11_p1_blk",
 
-    //5.56
-    "gm_20Rnd_556x45mm_b_M855_stanag_gry",
-    "gm_20Rnd_556x45mm_b_t_M856_stanag_gry",
-    "gm_30Rnd_556x45mm_b_M855_stanag_gry",
-    "gm_30Rnd_556x45mm_b_t_M856_stanag_gry",
+    // // P2A1 26.5 mm
+    // "gm_1Rnd_265mm_flare_single_wht_gc",
+    // "gm_1Rnd_265mm_flare_single_grn_gc",
+    // "gm_1Rnd_265mm_flare_single_red_gc",
+    // "gm_1Rnd_265mm_flare_multi_red_gc",
+    // "gm_1Rnd_265mm_smoke_single_yel_gc",
+    // "gm_1Rnd_265mm_smoke_single_blu_gc",
+    // "gm_1Rnd_265mm_smoke_single_blk_gc",
+    // "gm_1Rnd_265mm_flare_para_yel_DM16",
+    // "gm_1Rnd_265mm_flare_single_wht_DM15",
+    // "gm_1Rnd_265mm_flare_single_red_DM13",
+    // "gm_1Rnd_265mm_flare_single_grn_DM11",
+    // "gm_1Rnd_265mm_flare_single_yel_DM10",
+    // "gm_1Rnd_265mm_flare_multi_wht_DM25",
+    // "gm_1Rnd_265mm_flare_multi_red_DM23",
+    // "gm_1Rnd_265mm_flare_multi_grn_DM21",
+    // "gm_1Rnd_265mm_flare_multi_yel_DM20",
+    // "gm_1Rnd_265mm_smoke_single_yel_DM19",
+    // "gm_1Rnd_265mm_smoke_single_org_DM22",
+    // "gm_1Rnd_265mm_smoke_single_vlt_DM24",
+    // "gm_1Rnd_265mm_flare_multi_nbc_DM47",
 
-    //9mm smg
-    "gm_30rnd_9x19mm_b_dm51_mp5_blk",
-    "gm_30rnd_9x19mm_b_dm11_mp5_blk",
-    "gm_30rnd_9x19mm_b_dm51_mp5a3_blk",
-    "gm_30rnd_9x19mm_b_dm11_mp5a3_blk",
+    // //5.56
+    // "gm_20Rnd_556x45mm_b_M855_stanag_gry",
+    // "gm_20Rnd_556x45mm_b_t_M856_stanag_gry",
+    // "gm_30Rnd_556x45mm_b_M855_stanag_gry",
+    // "gm_30Rnd_556x45mm_b_t_M856_stanag_gry",
 
-    // PzF44-2
-    "gm_1rnd_44x537mm_heat_dm32_pzf44_2",
+    // //9mm smg
+    // "gm_30rnd_9x19mm_b_dm51_mp5_blk",
+    // "gm_30rnd_9x19mm_b_dm11_mp5_blk",
+    // "gm_30rnd_9x19mm_b_dm51_mp5a3_blk",
+    // "gm_30rnd_9x19mm_b_dm11_mp5a3_blk",
 
-    // PzF84
-    "gm_1rnd_84x245mm_heat_t_dm12_carlgustaf",
-    "gm_1rnd_84x245mm_heat_t_dm12a1_carlgustaf",
-    "gm_1rnd_84x245mm_heat_t_dm22_carlgustaf",
-    "gm_1rnd_84x245mm_heat_t_dm32_carlgustaf",
-    "gm_1rnd_84x245mm_illum_dm16_carlgustaf",
+    // // PzF44-2
+    // "gm_1rnd_44x537mm_heat_dm32_pzf44_2",
 
-    // Grenades
-    "gm_handgrenade_frag_dm51",
-    "gm_handgrenade_frag_dm51a1",
-    "gm_handgrenade_conc_dm51",
-    "gm_handgrenade_conc_dm51a1",
-    "gm_smokeshell_grn_dm21",
-    "gm_smokeshell_red_dm23",
-    "gm_smokeshell_yel_dm26",
-    "gm_smokeshell_org_dm32",
-    "gm_smokeshell_wht_dm25",
+    // // PzF84
+    // "gm_1rnd_84x245mm_heat_t_dm12_carlgustaf",
+    // "gm_1rnd_84x245mm_heat_t_dm12a1_carlgustaf",
+    // "gm_1rnd_84x245mm_heat_t_dm22_carlgustaf",
+    // "gm_1rnd_84x245mm_heat_t_dm32_carlgustaf",
+    // "gm_1rnd_84x245mm_illum_dm16_carlgustaf",
 
-    // Explosives
-    "gm_explosive_petn_charge",
-    "gm_mine_at_dm21"
+    // // Grenades
+    // "gm_handgrenade_frag_dm51",
+    // "gm_handgrenade_frag_dm51a1",
+    // "gm_handgrenade_conc_dm51",
+    // "gm_handgrenade_conc_dm51a1",
+    // "gm_smokeshell_grn_dm21",
+    // "gm_smokeshell_red_dm23",
+    // "gm_smokeshell_yel_dm26",
+    // "gm_smokeshell_org_dm32",
+    // "gm_smokeshell_wht_dm25",
+
+    // // Explosives
+    // "gm_explosive_petn_charge",
+    // "gm_mine_at_dm21"
 ];
 
 GRLIB_arsenal_items = [
@@ -243,6 +245,7 @@ GRLIB_arsenal_items = [
     "gm_ferod16_des", 
     "gm_ferod16_win", 
     "gm_ferod16_oli", 
+    "gm_ferod16_grn",
     "gm_df7x40_blk",
     "gm_watch_kosei_80",
 
@@ -269,6 +272,7 @@ GRLIB_arsenal_items = [
     "ACE_atropine",
     "ACE_fieldDressing",
     "ACE_elasticBandage",
+    "ACE_packingBandage",
     "ACE_bloodIV",
     "ACE_bloodIV_500",
     "ACE_bloodIV_250",
