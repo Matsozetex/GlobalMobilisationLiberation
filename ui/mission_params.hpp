@@ -303,7 +303,7 @@ class Params {
         title = $STR_PARAM_SUPPMOD;
         values[] = {0, 1, 2};
         texts[] = {$STR_PARAMS_DISABLED, $STR_PARAM_SUPPMOD_CMDRANDWHITELIST, $STR_PARAM_SUPPMOD_EVERYONE};
-        default = 1;
+        default = 0;
     };
     class Tutorial {
         title = $STR_PARAM_TUTORIAL;
@@ -351,7 +351,7 @@ class Params {
         title = $STR_WHITELIST_PARAM;
         values[] = {1, 0};
         texts[] = {$STR_WHITELIST_ENABLED, $STR_PARAMS_DISABLED};
-        default = 1;
+        default = 0;
     };
     class ServerRestart {
         title = $STR_RESTART_PARAM;
