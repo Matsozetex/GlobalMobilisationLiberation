@@ -57,6 +57,7 @@ light_vehicles = [
     ["gm_ge_army_bicycle_01_oli",10,0,0],                               // Service Bicycle
     ["gm_ge_army_k125",50,0,25],                                        // K125 Bike
     ["gm_ge_army_iltis_cargo_win",100,0,50],                            // Truck 0.5t
+    ["gm_ge_army_iltis_mg3_win",100,20,50],                                  // Truck 0.5t MG3
     ["gm_ge_army_iltis_milan_win",100,60,50],                           // Truck 0.5t MILAN
     ["gm_ge_army_u1300l_cargo_win",125,30,75],                          // Truck 2t Transport
     ["gm_ge_army_kat1_451_cargo_win",145,30,75],                        // Truck 5t Transport
